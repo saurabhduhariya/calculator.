@@ -23,7 +23,10 @@ int squr(int a) {
 	return (a*a);
 }
 int cube(int a){
-	return (a*a*a)
+	return (a*a*a);
+}
+float inverse(int a){
+	return (1/a);
 }
 
 int main() {
@@ -80,7 +83,7 @@ int main() {
             case 'i':
                 printf("Enter an integer: ");
                 scanf("%d", &a);
-                printf("Will be implemented soon...\n");
+                printf("The inverse of given no is %d\n",inverse(a));
                 break;
             default:
                 printf("Invalid operation. Please try again.\n");
